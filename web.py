@@ -1,6 +1,8 @@
 import streamlit as st
 import filefunc
 
+st.set_page_config(page_title="My Checklist", page_icon="Jaxeetee_Logo.png", layout="centered", initial_sidebar_state="auto", menu_items=None)
+
 checkList = filefunc.read_todos_file()
 
 
