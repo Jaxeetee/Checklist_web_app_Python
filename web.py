@@ -26,5 +26,3 @@ except IndexError:
 
 st.text_input(label="", placeholder="Add a new item",
               on_change=add_item, key="new_item")
-
-st.session_state
